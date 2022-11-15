@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.lang.*;
+
 
 public class Main {
     static int[] arr = generateRandomArray();
@@ -29,5 +31,13 @@ public class Main {
         float average = 0;
         average = sum / 30f;
         System.out.println("Cредняя сумма затрат за месяц составила: " + average + " рублей");
+
+    }
+    static class ReverseString {
+        public static void main(String[] args) {
+            char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+            for (int o = reverseFullName.length - 1; o >= 0; o--)
+                System.out.print(reverseFullName[o]);
+        }
     }
 }
