@@ -28,7 +28,7 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат составила: " + min + " рублей");
         System.out.println("Максимальная сумма трат составила: " + max + " рублей");
-        float average = 0;
+        float average;
         average = sum / 30f;
         System.out.println("Cредняя сумма затрат за месяц составила: " + average + " рублей");
 
